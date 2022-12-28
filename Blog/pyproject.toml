@@ -8,6 +8,7 @@ authors = ["Human Object"]
 python = "^3.10"
 Django = "^4.1.4"
 djangorestframework = "^3.14.0"
+mypy = "^0.991"
 
 [tool.poetry.dev-dependencies]
 
