@@ -1,4 +1,5 @@
 asgiref==3.6.0; python_version >= "3.8"
+django-extensions==3.2.1; python_version >= "3.6"
 django==4.1.4; python_version >= "3.8"
 djangorestframework==3.14.0; python_version >= "3.6"
 mypy-extensions==0.4.3; python_version >= "3.7"
