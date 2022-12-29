@@ -53,7 +53,7 @@ class BlogViewsTestCase(APITestCase):
             "/blogs/",
             data={
                 "title": "some",
-                "body": "some kera ko kera ho",
+                "body": "Lorem Ipsum is simply dummy text of the printing and typesetting",
             },
         )
         self.assertEqual(response.status_code, status.HTTP_201_CREATED)
@@ -68,7 +68,7 @@ class BlogViewsTestCase(APITestCase):
             "/blogs/",
             data={
                 "title": "some fsjflkasdjfasldkjfaslkd",
-                "body": "some kera ko kera ho",
+                "body": "Lorem Ipsum is simply dummy text of the printing and typesetting",
             },
         )
         self.assertEqual(response.status_code, status.HTTP_400_BAD_REQUEST)
@@ -78,7 +78,7 @@ class BlogViewsTestCase(APITestCase):
             "/blogs/",
             data={
                 "title": "some",
-                "body": "some kera ko kera ho",
+                "body": "Lorem Ipsum is simply dummy text of the printing and typesetting",
             },
         )
         self.assertEqual(response.status_code, status.HTTP_401_UNAUTHORIZED)
